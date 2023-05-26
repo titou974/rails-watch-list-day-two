@@ -52,3 +52,4 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_14_133431) do
   add_foreign_key "bookmarks", "movies"
   add_foreign_key "reviews", "lists"
 end
+DISABLE_DATABASE_ENVIRONMENT_CHECK=1
